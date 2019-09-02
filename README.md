@@ -31,5 +31,5 @@ on your favorite Music Player by downloading any required song on a single click
 - [X] So,Every music file is embedded with AlbumArt and Audio Info
 
 #### Info
-Developed by : **Jeff Iberdo THOMAS; Rose Fadjia Leila JOSEPH; Albert Mary DORCE; Stevengo JEAN-LOUIS**
+Developed by : **Jeff Iberdo THOMAS; Rose Fadjia Leila JOSEPH; Albert Mary DORCE; Stevengo JEAN-LOUIS**.
 Contact : "musicdemoappday@gmail.com"
