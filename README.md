@@ -130,7 +130,7 @@ Wireframes
 [Add picture of your hand sketched wireframes in this section]
 
 [BONUS] Digital Wireframes & Mockups
-This is the figma's link "https://www.figma.com/proto/sED6oJWXK3kuV1nof74XRq/Untitled?node-id=1%3A28&scaling=contain"
+This is the figma's link "https://www.figma.com/proto/sED6oJWXK3kuV1nof74XRq/Untitled?node-id=10%3A4&scaling=min-zoom"
 [BONUS] Interactive Prototype
 Schema
 [This section will be completed in Unit 9]
