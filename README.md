@@ -35,8 +35,8 @@ with this app User can
 - [ ] view his profile
 - [ ] create  playlist.
 - [ ] Search and Discover music from the App.
-…
-Optional Nice-to-have Stories
+
+**Optional Nice-to-have Stories**
 - [ ] comment several times under a music.
 - [ ] like or dislike a song.
 - [ ] Play audio in the background.
@@ -44,26 +44,26 @@ Optional Nice-to-have Stories
 - [ ] download music.
 
 ### 2. Screen Archetypes
-*Welcome 
-	*It's like a splash screen, it will be displayed during 3 seconds*
-*Login
-   *User can login to account* 
-*Sign Up
-	*User can create an account*
-*Home 
-	*User can see all the artists in the app*
-*Search 
-	*User can search for a music by the title, by the artist name* 
-*Results
-	*When user makes a search, he will have a list of music showing up in a screen as result*
-*PlayList 
-	*User can create his own playlist based on what he prefers to listen to* 
-*Artist songs 
-	*It displays all the songs of the artist.*
-*Play Song
-	*It display a play controller of the playing song, it allows users to like song or to add it in his playlist*
-*Profile
-	*It allow users to see his profile and to update some content like his profile photo*
+* Welcome
+	* It's like a splash screen, it will be displayed during 3 seconds
+* Login
+   	* User can login to account 
+* Sign Up
+	* User can create an account
+* Home 
+	* User can see all the artists in the app
+* Search
+	* User can search for a music by the title, by the artist name
+* Results
+	* When user makes a search, he will have a list of music showing up in a screen as result*
+* PlayList 
+	* User can create his own playlist based on what he prefers to listen to
+* Artist songs 
+	* It displays all the songs of the artist.
+* Play Song
+	* It display a play controller of the playing song, it allows users to like song or to add it in his playlist
+* Profile
+	* It allow users to see his profile and to update some content like his profile photo
 
 ## 3. Navigation
 **Tab Navigation** (Tab to Screen)
@@ -74,16 +74,18 @@ Optional Nice-to-have Stories
  * Profile
 
 **Flow Navigation** (Screen to Screen)
-*Welcome -> it sends user to the Login Screen in a few seconds
-*Login	-> it sends users to the Home Screen or The Sign up screen
-*Sign Up -> Create account and send user to the home Screen
-*Home Screen 
-*Search
-	*Home
- * [Playlist]
-   * [=>Home]
- * [Setting]
-   * [=>Home]
+* Welcome -> it sends user to the Login Screen in a few seconds
+* Login	-> it sends users to the Home Screen or The Sign up screen
+* Sign Up -> Create account and send user to the home Screen
+* Home Screen -> Show a list of all the artists, when you click on a artist it sends you to the Artists songs which contain all the songs of that artist.
+
+* Search
+	* it displays a list of song based on what you are looking for.
+* Playlist
+ 	* it displays a list of choosen song by the user
+* Profile
+	* It displays information about the user
+ 
 Wireframes
 [Add picture of your hand sketched wireframes in this section]
 
