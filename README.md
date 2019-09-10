@@ -114,19 +114,28 @@ Images associated with the user's identity
 List of related users (followers, following)
 Action items when on another user's account 
 
-3. Navigation
-Tab Navigation (Tab to Screen)
-[Home]
-[search]
-[Playlist]
-[Setting]
-Flow Navigation (Screen to Screen)
-[Login] 
-[list screen navigation here]
-…
-[list second screen here] 
-[list screen navigation here]
-…
+
+## 3. Navigation
+**Tab Navigation** (Tab to Screen)
+
+ * [Home]
+ * [Search music]
+ * [Playlist user]
+ * [Setting]
+
+**Flow Navigation** (Screen to Screen)
+
+ * [Login]
+   * [=>Home]
+   
+ * [Sign Up]
+   * [=>Home]
+ * [Search]
+   * [=>Home]
+ * [Playlist]
+   * [=>Home]
+ * [Setting]
+   * [=>Home]
 Wireframes
 [Add picture of your hand sketched wireframes in this section]
 
