@@ -1,14 +1,15 @@
-MUSIC LIVE
-Table of Contents
-Overview
-Product Spec
-Wireframes
-Schema
-Overview
-Description
+# MUSIC LIVE
+## Table of Contents
+1. [Overview] (#Overview)
+2. [Product Spec](#Product Spec)
+3. [Wireframes] (#Wireframes)
+4. [Schemas] (#Schema)
 
-MusicDemoDay is a Haitian music app on which underground artist from all over the country
- can contact us to upload their songs on the app via this Email: "musicdemoappday@gmail.com"
+## Overview
+### Description
+
+Music Live is a Haitian music app on which underground artist from all over the country
+ can contact us to upload their songs on the app via this Email: "musiclive362@gmail.com"
 
 This app is made for underground artists who are recording good music (lyrics, sound), but unfortunately 
 their music doesn't play in any radio station, in any party but only their family, friends and some people because they are unpopular artist.
@@ -16,118 +17,69 @@ so we create this app to help them share their music, so people listen to them, 
 
 
 ### App Evaluation
-- **Category:** Social Networking / Music
+- **Category:** Music
 - **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn’t be limited to mobile devices, however mobile version could potentially have more features.
+-**Story:** Music Live Allows users  to subscribe to an artist and find his music in the home, it also allows users to listen to musics, to create his own playlists, to like a music, to comment under a music.
+- **Market:** Any individual could choose to use this app, and to keep it a safe environment.
+- **Habit:** This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they're looking for, and also depending on how passionate they are about good musics.
+- **Scope:** First we would start with listing all the artists and the user will choose which music he would like to listen to. He can even create his own playlist.
 
-Product Spec
-1. User Stories (Required and Optional)
-Required Must-have Stories
+## Product Spec
+### 1. User Stories (Required and Optional)
+**Required Must-have Stories**
 with this app User can 
-- [X] log in 
-- [X] Create new account 
-- [X] Log out
-- [X] view all uploaded songs
-- [X] view his profile
-- [X] Play audio in the background.
-	Continues playing while the screen is off or the app is in the background
-
-- [X] create  playlist.
-
-- [X] Search and Discover music from the App.
+- [ ] log in 
+- [ ] Create new account 
+- [ ] Log out
+- [ ] view all uploaded songs
+- [ ] view his profile
+- [ ] create  playlist.
+- [ ] Search and Discover music from the App.
 …
 Optional Nice-to-have Stories
 - [ ] comment several times under a music.
 - [ ] like or dislike a song.
+- [ ] Play audio in the background.
+	Continues playing while the screen is off or the app is in the background
 - [ ] download music.
-…
-2. Screen Archetypes
 
-Welcome 
-
-It's like a splash screen, it will be displayed during 5 seconds
-
-
-Login
-[Accepting varying types of form input from user for basic login / signup 
-Validation of form inputs for invalid data (i.e bad emails, duplicate emails)
-Sending requests to server to authenticate or create new user accounts 
-Integrating third-party connection SDKs (i.e Facebook SDK) 
-Loading states during authentication or creation 
-
-Sign Up
-Input fields of various types to collect information 
-Ability to validate fields for correctness before creation
-Sending network request to create new valid content item 
-Option to capture a photo or select from photo gallery 
-
-Home 
-Sending network requests to retrieve lists of content data to display 
-Creating a list of items based on that source data including displaying text and media 
-Endless scrolling which paginates as user consumes content 
-Handling cases where the user wants to view more information on a piece of content 
-Allowing the user to take primary actions on this content such as deleting or editing 
-Optimizing the display of items such that scrolling the stream is smooth 
-
-Search 
-Sending network requests to retrieve lists of content data to display 
-Creating a list of items based on that source data including displaying text and media 
-Endless scrolling which paginates as user consumes content 
-Handling cases where the user wants to view more information on a piece of content 
-Allowing the user to take primary actions on this content such as deleting or editing 
-Optimizing the display of items such that scrolling the stream is smooth 
-
-Results
-Sending network requests to retrieve lists of content data to display 
-Creating a list of items based on that source data including displaying text and media 
-Endless scrolling which paginates as user consumes content 
-Handling cases where the user wants to view more information on a piece of content 
-Allowing the user to take primary actions on this content such as deleting or editing 
-Optimizing the display of items such that scrolling the stream is smooth 
-
-PlayList 
-Sending network requests to retrieve lists of content data to display 
-Creating a list of items based on that source data including displaying text and media 
-Endless scrolling which paginates as user consumes content 
-Handling cases where the user wants to view more information on a piece of content 
-Allowing the user to take primary actions on this content such as deleting or editing 
-Optimizing the display of items such that scrolling the stream is smooth 
-
-Artits songs details
-Sending network request to retrieve additional details or media for the data item 
-Action buttons that allow user to interact with the item 
-Option for user to share the content out to other apps 
-Scrollable text or media content to read about the item 
-
-Play
-Sending network request to retrieve additional details or media for the data item 
-Action buttons that allow user to interact with the item 
-Option for user to share the content out to other apps 
-Scrollable text or media content to read about the item 
-
-Profile
-Grid or list of recent content items for user 
-Images associated with the user's identity 
-List of related users (followers, following)
-Action items when on another user's account 
-
+### 2. Screen Archetypes
+*Welcome 
+	*It's like a splash screen, it will be displayed during 3 seconds*
+*Login
+   *User can login to account* 
+*Sign Up
+	*User can create an account*
+*Home 
+	*User can see all the artists in the app*
+*Search 
+	*User can search for a music by the title, by the artist name* 
+*Results
+	*When user makes a search, he will have a list of music showing up in a screen as result*
+*PlayList 
+	*User can create his own playlist based on what he prefers to listen to* 
+*Artist songs 
+	*It displays all the songs of the artist.*
+*Play Song
+	*It display a play controller of the playing song, it allows users to like song or to add it in his playlist*
+*Profile
+	*It allow users to see his profile and to update some content like his profile photo*
 
 ## 3. Navigation
 **Tab Navigation** (Tab to Screen)
 
- * [Home]
- * [Search music]
- * [Playlist user]
- * [Setting]
+ * Home
+ * Search
+ * Playlist
+ * Profile
 
 **Flow Navigation** (Screen to Screen)
-
- * [Login]
-   * [=>Home]
-   
- * [Sign Up]
-   * [=>Home]
- * [Search]
-   * [=>Home]
+*Welcome -> it sends user to the Login Screen in a few seconds
+*Login	-> it sends users to the Home Screen or The Sign up screen
+*Sign Up -> Create account and send user to the home Screen
+*Home Screen 
+*Search
+	*Home
  * [Playlist]
    * [=>Home]
  * [Setting]
