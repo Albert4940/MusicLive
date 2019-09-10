@@ -19,10 +19,7 @@ App Evaluation
 [Evaluation of your app across the following attributes]
 Category:
 Mobile:
-Story:
-Market:
-Habit:
-Scope:
+
 Product Spec
 1. User Stories (Required and Optional)
 Required Must-have Stories
