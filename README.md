@@ -15,10 +15,9 @@ their music doesn't play in any radio station, in any party but only their famil
 so we create this app to help them share their music, so people listen to them, discover thier talents, their masterpiece.
 
 
-App Evaluation
-[Evaluation of your app across the following attributes]
-Category:
-Mobile:
+### App Evaluation
+- **Category:** Social Networking / Music
+- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn’t be limited to mobile devices, however mobile version could potentially have more features.
 
 Product Spec
 1. User Stories (Required and Optional)
