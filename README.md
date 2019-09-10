@@ -116,11 +116,12 @@ Action items when on another user's account
 
 3. Navigation
 Tab Navigation (Tab to Screen)
-[fill out your first tab]
-[fill out your second tab]
-[fill out your third tab]
+[Home]
+[search]
+[Playlist]
+[Setting]
 Flow Navigation (Screen to Screen)
-[list first screen here] 
+[Login] 
 [list screen navigation here]
 …
 [list second screen here] 
